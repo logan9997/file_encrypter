@@ -4,16 +4,6 @@ import cryptography
 
 from general import *
 
-'''
-V 1.0
-
-cd OneDrive/Documents/programming/python/ctf/random_practice/file_encrypter
-
-TO ADD:
-    -command based input, like CMD
-    -more optionality
-'''
-
 class SearchFolders():
 
     def __init__(self, path:str, **skipped_folders:list):
